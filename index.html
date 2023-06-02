@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <title>Homepage | The Diving Bell</title>
+    <meta charset="utf-8">
+    <meta name="description" content="The Diving Bell Home. Under water diving, from recreational to commercial all you need to know.">
+    <meta name="author" content="The Diving Bell">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Fun,Under,Water,Diving,Scuba,Under Water, Commercial Diving, Free Diving">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    </head>
+
+    <body>
+        
+<!--a container box for creating a grid element to hold the index page and for content manipulation-->
+    <div class = "gridContainerIndex">
+        
+        <!--        Title, logo and header-->
+        <header id = "index">
+            <h1 class ="title">The Diving Bell - Home</h1>
+            <a href = "index.html"><img class = "logo" src = "assets/img/scuba.png" alt ="The diving bell logo and home button"></a>
+
+        </header>
+        
+        <nav>
+            <!--creates a clickable button for displaying the navigation bar on mobile devices. Controlled with CSS-->
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id= "toggle"/>
+            
+            <!--  navigation menu bar-->
+            <div id = "menu">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="scuba.html">Scuba Diving</a></li>
+                    <li><a href="commercial.html">Commercial Diving</a></li>
+                    <li><a href="free.html">Free Diving</a></li>
+                    <li><a href="whereToDive.html">Where to Dive</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ol>
+            </div>
+        </nav>
+        
+        <!--Webpage introductory statement and hedding-->
+        <div id = "indexIntro">
+            <div id ="indexIntroTitle">
+                <p>Welcome to the Diving Bell.</p>
+            </div>
+            <div id = "indexIntroText">
+                <p>The Diving Bell, is a community interested in the mysteries that lay beneath the dark waters that cover this beautiful planet of ours.</p>
+            </div>
+        </div>
+        
+<!--   Introductory statements for the 4 other pages and clickable links-->
+        <div id = "indexLinks">
+
+<!--        SCUBA PAGE-->
+            <div class = "indexLinkContent">
+                <h2>The art of SCUBA diving!</h2>
+                <p>SCUBA diving is the act of bringing your own air into an alien environment so you can explore it at your leisure. It allows us to visit one of the last great mysteries on this planet.</p>
+                To find out more, go to the <a href = "scuba.html">scuba diving page</a>.
+            </div>
+<!--            container element for dynamic resizing of image-->
+            <div id = "scubaContainer">
+                <div class = "scubaContainerContent">
+                    <img src = "assets/img/index/scuba.jpg" class = "scubaImage" alt="Two Scuba divers posing for a photo underwater. The diver hsa her thumbs up in enjoyment. the water is coloured deep blue">
+                    <p><cite>Divers Underwater</cite> by Chang Ti Fang</p>
+                </div>
+            </div>
+            
+<!--        FREE DIVING PAGE-->
+            <div class = "indexLinkContent">
+                <h2>What is Free Diving?</h2>
+                <p>Free diving has been around for thousands of years, and is arguably where the dream of scuba diving began. But it is only recently regaining popularity as a sport.</p>
+                To find out more, go to the <a href = "free.html">free diving page</a>.
+            </div>
+<!--            container element for dynamic resizing of image-->
+            <div id = "freeContainer">
+                <div class = "freeContainerContent">
+                    <img src = "assets/img/index/free.jpg" class = "freeImage" alt="Free Diver">
+                    <p><cite>Just Having Fun Underwater</cite> by Ron Sanderson</p>
+                </div>
+            </div>
+
+<!--            WHERE TO GO SCUBA DIVING PAGE-->
+            <div class = "indexLinkContent">
+                <h2>Where are the best places to dive?</h2>
+                <p>Any where there is water is a great place to go diving. However, there are some places that stand above the rest!</p>
+                To find out more, go to the <a href = "whereToDive.html">where to dive page</a>.
+            </div>
+<!--            container element for dynamic resizing of image-->
+            <div id ="whereContainer">
+                <div class = "whereContainerContent">
+                    <img src = "assets/img/index/confused.jpg" class = "whereImage" alt="Image of dress suit question mark representing the questions where is the best place to go scuba diving?">
+                </div>
+            </div>
+
+<!--            COMMERCIAL DIVING PAGE-->
+            <div class = "indexLinkContent">
+                <h2>What if I want to make diving my career?</h2>
+                <p>The act of diving as employment is called Commercial Diving. It is very closely related to scuba diving but it differs in some key areas and is probably one of the most interesting fields of work you can get into.</p>
+                To find out more, go to the <a href = "commercial.html">commercial diving page</a>.
+            </div>
+<!--            container element for dynamic resizing of image-->
+            <div id = "commercialContainer">
+                <div class ="commercialContainerContent">
+                    <img src = "assets/img/index/commercial.jpg" class = "commercialImage" alt="Image of a commercial diver working with a numatic jackhammer at the bottom of the ocean">
+                    <p><cite>970216-N-3093M-002</cite> by Mate 2nd Class Andrew Mckaskle</p>
+                </div>
+            </div>
+        </div>
+        
+<!--        Links in the footer of the page-->
+        <footer>
+        <div id="fpLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="scuba.html">Scuba Diving</a></li>
+                <li><a href="commercial.html">Commercial Diving</a></li>
+                <li><a href="free.html">Free Diving</a></li>
+                <li><a href="whereToDive.html">Where To Dive</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </div>        
+        </footer>
+    
+        
+    </div>
+    </body>
+</html>

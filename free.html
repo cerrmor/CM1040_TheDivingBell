@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <title>About Free Diving</title>
+    <meta charset="utf-8">
+    <meta name="description" content="What is free diving and how to do it.">
+    <meta name="author" content="The Diving Bell">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Fun,Under,Water,Diving,Under Water, Free Diving">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    </head>
+
+        
+    <body>
+        
+    <!--a container box for creating a grid element to hold the Free Diving page and for content manipulation-->
+    <div class = "gridContainerFree">
+        
+        <!--   Title, logo and header-->
+        <header id = "free">
+            <h1 class ="title">The Diving Bell - Free Diving</h1>
+            <a href = "index.html"><img class = "logo" src = "assets/img/scuba.png" alt ="The diving bell logo and home button"></a>
+        </header>
+    
+        <nav>
+            <!--creates a clickable button for displaying the navigation bar on mobile devices. Controlled with CSS-->
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id= "toggle"/>
+            
+            <!-- Navigation menu bar-->
+            <div id = "menu">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="scuba.html">Scuba Diving</a></li>
+                    <li><a href="commercial.html">Commercial Diving</a></li>
+                    <li><a href="free.html">Free Diving</a></li>
+                    <li><a href="whereToDive.html">Where to Dive</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ol>
+            </div>
+        </nav>
+        
+        <!--Free Diving introductory statement and headding-->
+        <div id = "freeDivingIntro">
+            <div id = "freeDivingIntroTitle">
+                <p>Welcome to the Free Diving Page</p>
+            </div>
+            <div id = "freeDivingIntroText">
+                <p>Free Diving is the oldest form of diving. It can be argued that it has been around as long as people have wondered what lay beneath the surface of the water. It also inspired all other forms of diving that came after.</p>
+            </div>
+        </div>
+        
+        <!--Free Diving Main Content-->
+        <div id="freeDivingInfo">
+            <!--paragraph explaining what free diving is-->
+            <div class = "freeDivingContent">
+                <h2>What is Free Diving</h2>
+                <p>Free Diving also known as Breath Hold Diving or Skin Diving, is the process of diving while holding your breath until you resurface.</p>
+            </div>
+            
+            <!--video container for dynamically resizing the video with the page-->
+            <div id = "freeDivingVideoContainer">
+                <div class = "videoWrapper">
+                    <iframe src="https://www.youtube.com/embed/d4q_SwjF_Qo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <!-- paragraph explaining how long free diving has been around -->
+            <div class = "freeDivingContent">
+                <h2>How long has Free Diving been around?</h2>
+                <p>There is evidence that as early as 3000 BC the Minoans were breath hold diving to gather pearls and other resources for their society. There is even evidence that as early as 500 BC, the Greeks were using primitive diving bells to allow themselves to dive for longer periods of time. It can be assumed that breath hold diving has been around longer then recorded history.</p>
+            </div>
+            
+            <!-- paragraph explaining if free diving is still relevant -->
+            <div class = "freeDivingContent">
+                <h2>Is Free Diving still relevant?</h2>
+                <p>While The need to free dive to gather resource has diminished, due to new ways of diving that allow increased safety and length of stay underwater. Many find the challenge of pushing the assumed limits of the human body to the extreme to be worth the effort.</p>
+                <p>Because of this Free Diving has found a new lease on life as an experience sport. Like any sport, the factors that motivate people to try them are numerous, and individual in nature. However, a common theme in the sport, is that it is equal parts mental and physical. The challenge of pushing one’s self is meditative and thrilling which leads to a sense of exhilaration. That keeps people coming back for more.</p>
+            </div>
+            
+            <!--paragraph explaining if free diving is safe -->
+            <div class = "freeDivingContent">
+                <h2>Is Free Diving safe?</h2>
+                <p>Water is inherently risky. It is an environment that alien to our own and so, when ever visiting it we do take more risk upon ourselves. That being said when proper precautions are taken, for instance not diving alone. We can manage the increased risks. So yes, Free Diving is relatively safe. However, it must be noted, that when things do go wrong there is a much greater potential for harm.</p>
+            </div>
+        </div>
+        
+        <!-- secondary content locations to go free diving -->
+        <div id = "freeDivingLocations">
+            <!-- paragraph introducing the dive locations -->
+            <div>
+                <h2>Best Free Diving Locations!</h2>
+                <p>Because Free Diving is about so much more, then just seeing how long you can hold your breath and how deep you can go. Let me tell you about some of the most iconic freediving locations.</p>
+            </div>
+        
+            <!-- paragraph and video diving in bali -->
+            <div>
+                <h3>USAT Liberty Shipwreck, Tulamben Bali</h3>
+                <p>With depths of 5 to 30 m, easy access from shore, warm water temps, and numerous amounts of sea life. This is an amazing place to go free diving.</p>
+                
+                <!--video container for dynamically resizing the video with the page-->
+                <div id = "baliVideoContainer">
+                    <div class = "videoWrapper">
+                        <iframe src="https://www.youtube.com/embed/-yEx3GHjK-M" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- paragraph diving in mexico -->
+            <div>
+                <h3>Riviera Maya Cenote, Mexico</h3>
+                <p>Underwater caves filled with fresh water, formed through erosion and the interactions of the trees above. Creates amazing opportunity’s of observing freshwater fish species and experiences whole different from free diving in the ocean. Totally worth checking out.</p>
+                
+                <!--video container for dynamically resizing the video with the page-->
+                <div id = "mexicoVideoContainer">
+                    <div class = "videoWrapper">
+                        <iframe src="https://www.youtube.com/embed/j6STYIN5c30" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- paragraph and video diving in lombok -->
+            <div>
+                <h3>Gili Trawangan, Lombok</h3>
+                <p>Lots of animal interactions like turtles and manta rays and the low cost of living and travel. Mixed with the perfect conditions for diving like warm water and clear visibility. Make this a definite destination for exploring free diving.</p>
+                
+                <!--video container for dynamically resizing the video with the page-->
+                <div id = "lombokVideoContainer">
+                    <div class = "videoWrapper">
+                        <iframe src="https://www.youtube.com/embed/13J7So3Egm0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- footer links -->
+        <footer>
+         <div id="fpLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="scuba.html">Scuba Diving</a></li>
+                <li><a href="commercial.html">Commercial Diving</a></li>
+                <li><a href="free.html">Free Diving</a></li>
+                <li><a href="whereToDive.html">Where To Dive</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </div>       
+        </footer>
+        
+    </div>
+    </body>
+</html>

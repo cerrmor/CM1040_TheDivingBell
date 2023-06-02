@@ -1,0 +1,3288 @@
+*{
+    box-sizing: border-box;
+}
+/*-------------Common CSS--------------*/
+
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px){
+    /*  sets some features for these basic elements for when the viewing medium is a mobile device  */
+    
+    /*   sets a background image for the body of the website. subttle styling    */
+    body
+    {
+        background-image: url(../assets/img/index/under.jpeg);
+        background-size: 100% 100%;
+        height: 100%;
+    }
+    
+    h1
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 1.3em;
+    }
+    
+    h2
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+    
+    h3
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 17px;
+        color: black;
+    }
+    
+    p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: black;
+    }
+    
+    dt
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        margin-top: 20px;
+    }
+    
+    dd
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: black;
+    }
+
+}
+
+/*  sets some features for these basic elements for when the viewing medium is a tablet device  */
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px){
+    
+    /*   sets a background image for the body of the website. subttle styling    */
+    body{
+        background-image: url(../assets/img/index/under.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 10px;
+        height: 100%;
+    }
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 1.4em;
+/*        color: white;*/
+    }
+    
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+    
+    h3{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 17px;
+        color: black;
+    }
+    
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: black;
+    }
+    
+    dt{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        margin-top: 20px;
+    }
+     
+    dd{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: black;
+    }
+}
+
+/*  sets some features for these basic elements for when the viewing medium is a desktop device  */
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1011px){
+    
+    /*   sets a background image for the body of the website. subttle styling    */
+    body{
+        background-image: url(../assets/img/index/under.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 15px;
+        height: 100%;
+    }
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 2em;
+/*        color: white;*/
+    }
+    
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+    
+    h3{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 17px;
+        color: black;
+    }
+    
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: black;
+    }
+    
+    dt{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+        margin-top: 20px;
+    }
+    
+    dd{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: black;
+    }
+}
+
+/*---------common CSS for each page --------*/
+/*Header CSS---------------------------------------*/
+#index{
+    background-image: url(../assets/img/index/coral.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+#scuba{
+    background-image: url(../assets/img/scuba/diving.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+#commercial{
+    background-image: url(../assets/img/commercial/commercialFilet.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+#free{
+    background-image: url(../assets/img/free/freeDiving.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+#whereTo{
+    background-image: url(../assets/img/whereTo/map.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+#reportHeader{
+    background-image: url(../assets/img/scuba/diving.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+header { 
+    display: grid;
+    grid-template-areas:"logo title";
+    grid-template-columns: minmax(185px,30px) auto;
+    grid-column-gap: 10px;
+}
+
+header{
+    background:rgba(78, 119, 186, 255);
+    border-radius: 10px;;
+    border: 1px solid white;
+    text-align: center;
+/*    width:100%;*/
+    height:200px;
+    padding: 10px;
+}
+.logo{
+    grid-area: logo;
+    background: #da8a67;
+    border: 1px solid black;
+    border-radius:10px;
+    opacity: 0.9;
+    width:100%;
+    
+}
+.title{
+    grid-area: title;
+    align-self: center;
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    background: grey;
+    opacity: 0.85;
+}
+
+header object{
+    width:100%;
+    height: 100%;
+    column-width: auto;    
+}
+
+/*---------common CSS for the footer ---------*/
+/*--------- footer----------*/
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    background-color: #767671;
+}
+
+footer #fpLinks {
+    text-align: center;
+    margin: auto;
+    width: 99%
+}
+
+footer #fpLinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer #fpLinks ul li {
+    display: inline-block;
+    margin: 20px;
+    height: 20px;
+}
+
+footer #fpLinks ul li a {
+    color: white;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+/*-------controls how the navigation bar looks for mobile devices--------*/
+/*---------------------Nav CSS-------------------------------------------*/
+/*---------mobile---------*/
+
+@media only screen and (max-width: 570px){
+    nav{
+        background:rgba(78, 119, 186, 255);
+        border-radius: 10px;
+        border: 1px solid white;
+        text-align:center;
+        width:100%;
+        height: auto; 
+    }
+    
+    label{
+        display: block;
+        cursor: pointer;
+        font-size:28px;
+        color: white;
+        margin-right: 20px;
+        position: relative;
+        text-align: right;
+    
+    }
+    
+    #toggle{
+     display: none;
+    }
+
+    nav #menu{
+        display: none;
+        border-radius: 20px;
+        width:100%;
+        clear: right;
+    }
+    
+    nav ol{
+        border:1px solid white;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        text-align:center;
+        
+        
+    }
+    
+    nav li{
+        display:block;
+        border: 1px solid white;
+        border-radius: 5px;;
+        padding:5px;
+        
+        
+        
+    }
+    
+    nav li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 1em;
+        color:hsl(0,0%,255%);
+        display:inline-block;
+        padding:10px;
+    
+        
+        
+    }
+
+    nav li a:hover{
+        color:hsl(0,0%,255%);
+        text-decoration: none;
+    }
+
+    #toggle:checked + #menu{
+        display: block;
+    }
+}
+
+/*-------controls how the navigation bar looks for tablet devices--------*/
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px){
+    nav{
+        background:rgba(78, 119, 186, 255);
+        border-radius: 10px;
+        border: 1px solid white;
+        text-align:center;
+        width:100%;
+    }
+    
+    label{
+        margin: 0 40px 0 0;
+        font-size: 26px;   
+        text-align: center;
+        display: none;
+    }
+    
+    #toggle{
+     display: none;
+    }
+    
+    nav ol{
+        border:1px solid white;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        text-align:center;
+        
+    }
+    
+    nav li{
+        display:inline;
+        border: 1px solid white;
+        border-radius: 5px;;
+        padding:5px;
+        
+        
+    }
+    
+    nav li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 1em;
+        color:hsl(0,0%,255%);
+        display:inline-block;
+        padding:10px;
+    
+        
+        
+    }
+
+    nav li a:hover{
+        color:hsl(0,0%,255%);
+        text-decoration: none;
+    }
+}
+
+/*-------controls how the navigation bar looks for desktop devices--------*/
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1011px){
+    nav{
+        background:rgba(78, 119, 186, 255);
+        border-radius: 10px;
+        border: 1px solid white;
+        text-align:center;
+        width:100%;
+        
+        
+        
+    }
+    
+    label{
+        margin: 0 40px 0 0;
+        font-size: 26px;   
+        text-align: center;
+        display: none;
+    }
+    
+    #toggle{
+     display: none;
+    }
+    
+    nav ol{
+        border:1px solid white;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        text-align:center;
+        
+    }
+    
+    nav li{
+        display:inline;
+        border: 1px solid white;
+        border-radius: 5px;;
+        padding:5px;
+        
+        
+    }
+    
+    nav li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 1em;
+        color:hsl(0,0%,255%);
+        display:inline-block;
+        padding:10px;
+    
+        
+        
+    }
+
+    nav li a:hover{
+        color:hsl(0,0%,255%);
+        text-decoration: none;
+    }
+}
+
+/*--------common iframe video CSS------------*/
+/*----------------video CSS-----------------*/
+.videoWrapper{
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0px;
+    }
+.videoWrapper iframe {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 100%;
+        width: 100%;
+}
+
+iframe
+{
+    border: 0;
+}
+
+/*---------------------Index.html CSS-------------------*/
+/*----sets the grid location for the page content */
+#indexIntro{grid-area: intro;}
+#indexLinks{grid-area: main;}
+nav{grid-area: nav;}
+header{grid-area: title}
+footer{grid-area: footer}
+
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px)
+{
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerIndex {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-areas:
+          'title title title title title title'
+          'nav nav nav nav nav nav'
+          'intro intro intro intro intro intro'
+          'main main main main main main'
+          'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+      }
+
+      #indexIntro{
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+/*        opacity: 0.9;*/
+    }
+    
+    #indexIntro #indexIntroTitle{
+        
+        padding:10px;
+        position:relative;
+    }
+    
+    #indexIntro #indexIntroTitle p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 20px;;
+        color:rgb(0, 0, 0);
+        text-align: center;
+        
+    }
+    
+    #indexIntro #indexIntroText{
+      width:100%;
+      padding:10px;
+      text-align: center;
+      
+    }
+    
+    #indexLinks{
+    
+    }
+    
+    #indexLinks .indexLinkContent{
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px;
+        
+    }
+    
+    
+    
+    #indexLinks .indexLinkContent h2{
+        background: #cfdde3;
+    }
+    
+    #indexLinks .indexLinkContent p{
+     
+    }
+    
+    #indexLinks .indexLinkContent a{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+    }
+    #scubaContainer{
+        background:#0fbda0 ;
+        padding: 10px;
+        
+    }
+    #freeContainer{
+        background:#58c6f5 ;
+        padding: 10px;
+        
+    }
+    #whereContainer{
+        background:#0fbda0 ;
+        padding: 10px;
+        
+    }
+    #commercialContainer{
+        background:#58c6f5 ;
+        padding: 10px;
+        
+    }
+    
+    .scubaImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        
+/*        height:50%;*/
+    }
+    .freeImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+/*        height:50%;*/
+    }
+    .whereImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:40%;
+/*        height:50%;*/
+    }
+    .commercialImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:35%;
+/*        height:50%;*/
+    }
+    
+}
+
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px){
+
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerIndex {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-areas:
+        'title title title title title title'
+        'nav nav nav nav nav nav'
+        'intro intro intro intro intro intro'
+        'main main main main main main'
+        'footer footer footer footer footer footer';
+      background-color: white;
+        opacity: 0.9;
+    }
+
+   
+      
+      #indexIntro{
+          border: 1px solid grey;
+          border-bottom: none;
+          background: #cfdde3;
+          
+      }
+      
+      #indexIntro #indexIntroTitle{
+          
+          padding:10px;
+          position:relative;
+      }
+      
+      #indexIntro #indexIntroTitle p{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-size: 25px;;
+          color:rgb(0, 0, 0);
+          
+      }
+      
+      #indexIntro #indexIntroText{
+        width:400px;
+        padding:10px;
+      }
+      
+      #indexLinks{
+      
+      }
+      
+      #indexLinks .indexLinkContent{
+          border: 1px solid grey;
+          border-bottom: none;
+          position: relative;
+          padding: 40px;
+          
+      }
+      
+      
+      
+      #indexLinks .indexLinkContent h2{
+          background: #cfdde3;
+      }
+      
+      #indexLinks .indexLinkContent p{
+       
+      }
+      
+      #indexLinks .indexLinkContent a{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-size: 15px;;
+          color: blue;
+      } 
+      
+          #scubaContainer{
+        background:#0fbda0 ;
+        padding: 10px;
+        
+    }
+    #freeContainer{
+        background:#58c6f5 ;
+        padding: 10px;
+        
+    }
+    #whereContainer{
+        background:#0fbda0 ;
+        padding: 10px;
+        
+    }
+    #commercialContainer{
+        background:#58c6f5 ;
+        padding: 10px;
+        
+    }
+    
+    .scubaImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:45%;
+    }
+    .freeImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:45%;
+    }
+    .whereImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:45%;
+    }
+    .commercialImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:40%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width:1011px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerIndex{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto minmax(200px,250px);
+        grid-template-areas:
+            'title title title title title intro'
+            'nav nav nav nav nav intro'
+            'main main main main main main'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    #indexIntro{
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+        
+    }
+    
+    #indexIntro #indexIntroTitle{
+        
+        padding:5px;
+        position:relative;
+    }
+    
+    #indexIntro #indexIntroTitle p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+        
+    }
+    
+    #indexIntro #indexIntroText{
+      width:100%;
+      padding:10px;
+      position: relative;
+      bottom:40px;
+    }
+    
+    #indexLinks{
+    
+    }
+    
+    #indexLinks .indexLinkContent{
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px;
+        
+    } 
+    
+    #indexLinks .indexLinkContent h2{
+        background: #cfdde3;
+    }
+    
+    #indexLinks .indexLinkContent p{
+     
+    }
+    
+    #indexLinks .indexLinkContent a{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+    }
+    #scubaContainer{
+        border:1px solid grey;
+        border-top: none;
+        border-bottom: none;
+        padding: 5px 25px;        
+    }
+    .scubaContainerContent{
+        background:#0fbda0 ;
+        padding: 10px;
+    }
+    #freeContainer{
+        border:1px solid grey;
+        border-top: none;
+        border-bottom: none;
+        padding: 5px 25px;  
+    }
+    .freeContainerContent{
+        background:#58c6f5 ;
+        padding: 10px;
+    }
+    #whereContainer{
+        border:1px solid grey;
+        border-top: none;
+        border-bottom: none;
+        padding: 5px 25px;
+    }
+    .whereContainerContent{
+        background:#0fbda0 ;
+        padding: 10px;
+    }
+    #commercialContainer{
+        border:1px solid grey;
+        border-top: none;
+/*        border-bottom: none;*/
+        padding: 5px 25px;
+    }
+    .commercialContainerContent{
+        background:#58c6f5 ;
+        padding: 10px;
+    }
+    
+    .scubaImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30%;
+        
+/*        height:50%;*/
+    }
+    .freeImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30%;
+/*        height:50%;*/
+    }
+    .whereImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30%;
+/*        height:50%;*/
+    }
+    .commercialImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:27%;
+/*        height:50%;*/
+    }
+}
+
+/*---------------------Scuba.html CSS-------------------*/
+/*Sets the location in the grid structure of elements*/
+#scubaIntro{grid-area: intro;}
+#scubaHistory{grid-area: history;}
+#needToKnow{grid-area: needtoknow;}
+#comments{grid-area: message;}
+/*---------mobile----------*/
+@media only screen and  (max-width: 570px){
+
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerScuba
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'history history history history history history'
+            'needtoknow needtoknow needtoknow needtoknow needtoknow needtoknow'
+            'message message message message message message'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+#scubaIntro
+{
+    border: 1px solid grey;
+    border-bottom: none;
+    background: #cfdde3;
+}
+
+#scubaIntro #scubaIntroTitle
+{
+    padding:10px;
+    position:relative;
+}
+    
+#scubaIntro #scubaIntroTitle p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 20px;;
+    color:rgb(0, 0, 0);
+}
+
+#scubaIntro #scubaIntroText
+{
+    width:100%;
+    padding:10px;
+    text-align: center;
+}
+    
+#scubaHistory, #needToKnow, #comments, #commentsTitle, #display, .divingSuggestions
+{
+    border: 1px solid grey;
+    border-bottom: none;
+    position: relative;
+    padding: 40px
+}
+    
+.needToKnowContainer, .scubaHistoryContainer, .diveClubContainer, .commentContainer
+{
+    border: 1px solid grey;
+    position: relative;
+    padding: 40px
+}
+
+#scubaHistory h2
+{
+    background: #cfdde3;
+}
+
+#commentsTitle h2
+{
+    background: #cfdde3;
+}
+
+#needToKnow h2 
+{
+    background: #cfdde3;
+}
+    
+#needToKnow h3 
+{
+    background: #cfdde3;
+}
+    
+#diveClub a
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color: blue;
+}
+
+
+    
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshowContainer {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc)*/ 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot1, .dot2, .dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover, .dot2:hover, .dot3:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.BVI, .Bahama, .Thai{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+}
+
+#title
+{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-left: 6px solid #095484;
+    background-color: #d0e2bc;
+    font:1.4em/1.6em cursive;
+    color: #095484;
+}
+    
+.message
+{
+    padding: 5px;
+    font-size: 20px
+}
+    
+}
+
+/*----------Tablet-----------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px){
+
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerScuba{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'history history history history history history'
+            'needtoknow needtoknow needtoknow needtoknow needtoknow needtoknow'
+            'message message message message message message'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+#scubaIntro
+{
+    border: 1px solid grey;
+    border-bottom: none;
+    background: #cfdde3;
+}
+
+#scubaIntro #scubaIntroTitle
+{
+    padding:10px;
+    position:relative;
+}
+    
+#scubaIntro #scubaIntroTitle p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 25px;;
+    color:rgb(0, 0, 0);
+}
+
+#scubaIntro #scubaIntroText
+{
+    width:400px;
+    padding:10px;
+}
+    
+#scubaHistory, #needToKnow, #comments, #commentsTitle, #display, .divingSuggestions
+{
+    border: 1px solid grey;
+    border-bottom: none;
+    position: relative;
+    padding: 40px
+}
+    
+.needToKnowContainer, .scubaHistoryContainer, .diveClubContainer, .commentContainer
+{
+    border: 1px solid grey;
+    position: relative;
+    padding: 40px
+}
+
+#scubaHistory h2
+{
+    background: #cfdde3;
+}
+
+#commentsTitle h2
+{
+    background: #cfdde3;
+}
+
+#needToKnow h2 
+{
+    background: #cfdde3;
+}
+    
+#needToKnow h3 
+{
+    background: #cfdde3;
+}
+    
+#diveClub a
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color: blue;
+}
+    
+.mySlides1, .mySlides2, .mySlides3 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshowContainer {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc)*/ 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot1, .dot2, .dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover, .dot2:hover, .dot3:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.BVI, .Bahama, .Thai{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+}
+
+
+#title
+{
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    border-left: 6px solid #095484;
+    background-color: #d0e2bc;
+    font:1.4em/1.6em cursive;
+    color: #095484;
+}
+    
+.message
+{
+    padding: 5px;
+    font-size: 20px
+}
+
+
+}
+
+/*------------desktop------------*/
+@media only screen and (min-width:1011px){
+
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerScuba{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto minmax(200px,250px);
+        grid-template-areas:
+            'title title title title title intro'
+            'nav nav nav nav nav intro'
+/*            'intro intro intro intro intro intro'*/
+            'history history history history history history'
+            'needtoknow needtoknow needtoknow needtoknow needtoknow needtoknow'
+            'message message message message message message'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+#scuba{
+    background-image: url(../assets/img/scuba/diving.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 60%;
+}
+    
+#scubaIntro
+{
+    border: 1px solid grey;
+    border-bottom: none;
+    background: #cfdde3;
+    height: 240px;
+}
+
+#scubaIntro #scubaIntroTitle
+{
+    padding:5px;
+    position:relative;
+}
+    
+#scubaIntro #scubaIntroTitle p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 25px;;
+    color:rgb(0, 0, 0);
+}
+
+#scubaIntro #scubaIntroText
+{
+    width:100%;
+    padding:10px;
+    position: relative;
+    bottom:40px;
+}
+    
+#scubaHistory, #needToKnow, #comments, #commentsTitle, #display, .divingSuggestions
+{
+    border: 1px solid grey;
+    border-bottom: none;
+    position: relative;
+    padding: 40px
+}
+    
+.needToKnowContainer, .scubaHistoryContainer, .diveClubContainer, .commentContainer
+{
+    border: 1px solid grey;
+    position: relative;
+    padding: 40px
+}
+
+#scubaHistory h2
+{
+    background: #cfdde3;
+}
+
+#commentsTitle h2
+{
+    background: #cfdde3;
+}
+
+#needToKnow h2 
+{
+    background: #cfdde3;
+}
+    
+#needToKnow h3 
+{
+    background: #cfdde3;
+}
+    
+#diveClub a
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 15px;;
+    color: blue;
+}
+    
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshowContainer {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc)*/ 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot1, .dot2, .dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover, .dot2:hover, .dot3:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.BVI, .Bahama, .Thai{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+}
+
+#title
+{
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    border-left: 6px solid #095484;
+    background-color: #d0e2bc;
+    font:1.4em/1.6em cursive;
+    color: #095484;
+}
+    
+.message
+{
+    padding: 5px;
+    font-size: 20px
+}
+    
+}
+
+/*---------------------Commercial.html CSS-------------------*/
+/*Sets the location in the grid structure of elements*/
+#commercialIntro{grid-area: intro;}
+#commercialConsiderations{grid-area: consideration;}
+#commercialVideoContainer{grid-area: video;}
+#commercialInfo{grid-area: info;}
+#howToBecome{grid-area: how;}
+#commercialWork{grid-area: work;}
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerCommercial
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'info info info info info info'
+            'consideration consideration consideration consideration consideration consideration'
+            'video video video video video video'
+            'how how how how how how'
+            'work work work work work work'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #commercialIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #commercialIntro #commercialIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #commercialIntro #commercialIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #commercialIntro #commercialIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #commercialConsiderations, #commercialInfo, #howToBecome, #commercialWork
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    #commercialConsiderations h2
+    {
+        background: #cfdde3;
+    }
+
+    #commercialInfo h2
+    {
+        background: #cfdde3;
+    }
+
+    #howToBecome h2
+    {
+        background: #cfdde3;
+    }
+
+    #commercialWork h2 
+    {
+        background: #cfdde3;
+    }
+
+    #howToBecome a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+    }
+    
+    #commercialVideoContainer
+    {
+/*        width: 50%; */
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+}
+
+/*-----------tablet-------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px)
+{
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerCommercial
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'info info info info info info'
+            'consideration consideration consideration consideration consideration consideration'
+            'video video video video video video'
+            'how how how how how how'
+            'work work work work work work'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+     #commercialIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #commercialIntro #commercialIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #commercialIntro #commercialIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #commercialIntro #commercialIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #commercialConsiderations, #commercialInfo, #howToBecome, #commercialWork
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+
+    #commercialConsiderations h2
+    {
+        background: #cfdde3;
+    }
+    
+    #commercialInfo h2
+    {
+        background: #cfdde3;
+    }
+
+    #howToBecome h2
+    {
+        background: #cfdde3;
+    }
+
+    #commercialWork h2 
+    {
+        background: #cfdde3;
+    }
+
+    #howToBecome a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+    }
+
+    
+    #commercialVideoContainer
+    {
+        width: 75%; 
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+}
+
+/*-----------Desktop-----------*/
+@media only screen and (min-width:1011px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerCommercial{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto minmax(200px,250px);
+        grid-template-areas:
+            'title title title title title intro'
+            'nav nav nav nav nav intro'
+            'info info info info info info'
+            'consideration consideration consideration consideration consideration consideration'
+            'video video video video video video'
+            'how how how how how how'
+            'work work work work work work'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #commercialIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #commercialIntro #commercialIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #commercialIntro #commercialIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #commercialIntro #commercialIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #commercialConsiderations, #commercialInfo, #howToBecome, #commercialWork
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+
+    #commercialConsiderations h2
+    {
+        background: #cfdde3;
+    }
+    
+    #commercialInfo h2
+    {
+        background: #cfdde3;
+    }
+
+    #howToBecome h2
+    {
+        background: #cfdde3;
+    }
+
+    #commercialWork h2 
+    {
+        background: #cfdde3;
+    }
+
+    #howToBecome a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+    }
+
+
+    #commercialVideoContainer
+    {
+        width: 50%; 
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+    }
+}
+
+/*---------------------Free.html CSS-------------------*/
+/*Sets the location in the grid structure of elements*/
+    #freeDivingIntro{grid-area: intro;}
+    #freeDivingInfo{grid-area: info;}
+    #freeDivingLocations{grid-area: location;}
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerFree{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'info info info info info info'
+            'location location location location location location'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #free{
+    background-image: url(../assets/img/free/freeDiving.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size:  auto;
+    }
+    
+    #freeDivingIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #freeDivingIntro #freeDivingIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #freeDivingIntro #freeDivingIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #freeDivingIntro #freeDivingIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #freeDivingInfo, #freeDivingLocations
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    #freeDivingInfo h2
+    {
+        background: #cfdde3;
+    }
+
+    #freeDivingLocations h2, h3
+    {
+        background: #cfdde3;
+    }
+    
+    #freeDivingLocations h3
+    {
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    #freeDivingVideoContainer
+    {
+/*        width: 50%; */
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+    
+    #baliVideoContainer
+    {
+/*        width: 50%; */
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+    
+    #mexicoVideoContainer
+    {
+/*        width: 50%; */
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+    
+    #lombokVideoContainer
+    {
+/*        width: 50%; */
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+}
+
+/*-----------tablet-------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px)
+{
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerFree{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'info info info info info info'
+            'location location location location location location'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #freeDivingIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #freeDivingIntro #freeDivingIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #freeDivingIntro #freeDivingIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #freeDivingIntro #freeDivingIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #freeDivingInfo, #freeDivingLocations
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    #freeDivingInfo h2
+    {
+        background: #cfdde3;
+    }
+
+    #freeDivingLocations h2, h3
+    {
+        background: #cfdde3;
+    }
+    
+    #freeDivingLocations h3
+    {
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    #freeDivingVideoContainer
+    {
+        width: 75%; 
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+    
+    #baliVideoContainer
+    {
+        width: 75%; 
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+    
+    #mexicoVideoContainer
+    {
+        width: 75%; 
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+    
+    #lombokVideoContainer
+    {
+        width: 75%; 
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        margin-bottom: 5%;
+    }
+}
+
+/*-----------Desktop-----------*/
+@media only screen and (min-width:1011px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerFree{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto minmax(200px,250px);
+        grid-template-areas:
+            'title title title title title intro'
+            'nav nav nav nav nav intro'
+            'info info info info info info'
+            'location location location location location location'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #freeDivingIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #freeDivingIntro #freeDivingIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #freeDivingIntro #freeDivingIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #freeDivingIntro #freeDivingIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #freeDivingInfo, #freeDivingLocations
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    #freeDivingInfo h2
+    {
+        background: #cfdde3;
+    }
+
+    #freeDivingLocations h2, h3
+    {
+        background: #cfdde3;
+    }
+    
+    #freeDivingLocations h3
+    {
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    #freeDivingVideoContainer
+    {
+        width: 50%; 
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+    }
+    
+    #baliVideoContainer
+    {
+        width: 50%; 
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;    }
+    
+    #mexicoVideoContainer
+    {
+        width: 50%; 
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;    }
+    
+    #lombokVideoContainer
+    {
+        width: 50%; 
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;    }
+}
+
+/*---------------------whereToDive.html CSS-------------------*/
+/*Sets the location in the grid structure of elements*/
+#whereToIntro{grid-area: intro;}
+#impact{grid-area: impact}
+#placesToDive{grid-area: places;}
+#honorableMentions{grid-area: honMent;}
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerWhereToDive
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'impact impact impact impact impact impact'
+            'places places places places places places'
+            'honMent honMent honMent honMent honMent honMent'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #whereToIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #whereToIntro #whereToIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #whereToIntro #whereToIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #whereToIntro #whereToIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #impact, #placesToDive, #honorableMentions
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    .diveSite
+    {
+        border: 1px solid grey;
+        position: relative;
+        padding: 40px;
+    }
+    
+    #impact h2
+    {
+        background: #cfdde3;
+    }
+
+    #placesToDive h2
+    {
+        background: #cfdde3;
+    }
+
+    #honorableMentions h2
+    {
+        background: #cfdde3;
+    }
+
+    .diveSite h3 
+    {
+        background: #cfdde3;
+        text-decoration: underline;
+    }
+    
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10 {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img .hover-shadow
+{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.hover-shadow
+{
+    width: 100%
+}
+
+.hover-shadow:hover 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+}
+
+/*-----------tablet-------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px)
+{
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerWhereToDive
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'impact impact impact impact impact impact'
+            'places places places places places places'
+            'honMent honMent honMent honMent honMent honMent'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #whereToIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #whereToIntro #whereToIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #whereToIntro #whereToIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #whereToIntro #whereToIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #impact, #placesToDive, #honorableMentions
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    .diveSite
+    {
+        border: 1px solid grey;
+        position: relative;
+        padding: 40px;
+    }
+    
+    #impact h2
+    {
+        background: #cfdde3;
+    }
+
+    #placesToDive h2
+    {
+        background: #cfdde3;
+    }
+
+    #honorableMentions h2
+    {
+        background: #cfdde3;
+    }
+
+    .diveSite h3 
+    {
+        background: #cfdde3;
+        text-decoration: underline;
+    }
+    
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow
+{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.hover-shadow
+{
+    width: 100%
+}
+
+.hover-shadow:hover 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+}
+
+/*-----------Desktop-----------*/
+@media only screen and (min-width:1011px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerWhereToDive
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto minmax(200px,250px);
+        grid-template-areas:
+            'title title title title title intro'
+            'nav nav nav nav nav intro'
+            'impact impact impact impact impact impact'
+            'places places places places places places'
+            'honMent honMent honMent honMent honMent honMent'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #whereToIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #whereToIntro #whereToIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #whereToIntro #whereToIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #whereToIntro #whereToIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #impact, #placesToDive, #honorableMentions
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    .diveSite
+    {
+        border: 1px solid grey;
+        position: relative;
+        padding: 40px;
+    }
+    
+    #impact h2
+    {
+        background: #cfdde3;
+    }
+
+    #placesToDive h2
+    {
+        background: #cfdde3;
+    }
+
+    #honorableMentions h2
+    {
+        background: #cfdde3;
+    }
+
+    .diveSite h3 
+    {
+        background: #cfdde3;
+        text-decoration: underline;
+    }
+    
+    #placesToDive a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+    }
+    
+    .row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus 
+    {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Hide the slides by default */
+.mySlides, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7,         .mySlides8, .mySlides9, .mySlides10 
+    {   
+        display: none; 
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next 
+    {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -50px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next 
+    {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover 
+    {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext 
+    {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* Caption text */
+    .caption-container 
+    {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+    }
+
+    img.demo 
+    {
+        opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover 
+    {
+        opacity: 1;
+    }
+
+    img.hover-shadow
+    {
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .hover-shadow
+    {
+        width: 100%
+    }
+
+    .hover-shadow:hover 
+    {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+    }
+}
+
+/*----------------------------Report-----------------------------*/
+
+#reportIntro{grid-area: intro;}
+#questions{grid-area: question;}
+#resourcesUsed{grid-area: sources;}
+.rLogo{grid-area: logo;}
+
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px)
+{
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerReport
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'question question question question question question'
+            'sources sources sources sources sources sources'
+            'footer footer footer footer footer footer';
+        background-color: white;
+
+        opacity: 0.9;
+    }
+    
+    #reportIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 260px;
+    }
+
+    #reportIntro #reportIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #reportIntro #reportIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #reportIntro #reportIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #questions, #resourcesUsed, #appendices, .answers, .resourceSources
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+
+    #questions h2
+    {
+        background: #cfdde3;
+    }
+
+    #resourcesUsed h2
+    {
+        background: #cfdde3;
+    }
+
+    #appendices h2 
+    {
+        background: #cfdde3;
+    }
+
+    #resourcesUsed a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+        overflow: hidden;
+    }
+    .appendixImg
+    {
+        width: 100%;
+    }
+    
+    /* allows the links on the page to wrap to a lower point with the dynamically changing page size   */
+    .lists
+    {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+
+    }
+    
+}
+
+/*-----------tablet-------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px)
+{
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerReport
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'question question question question question question'
+            'sources sources sources sources sources sources'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    #reportIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 240px;
+    }
+
+    #reportIntro #reportIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #reportIntro #reportIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #reportIntro #reportIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #questions, #resourcesUsed, #appendices, .answers, .resourceSources
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+
+    #questions h2
+    {
+        background: #cfdde3;
+    }
+
+    #resourcesUsed h2
+    {
+        background: #cfdde3;
+    }
+
+    #appendices h2 
+    {
+        background: #cfdde3;
+    }
+
+    #resourcesUsed a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+        display: inline;
+    }
+    .appendixImg
+    {
+        width: 100%;
+    }
+
+    /* allows the links on the page to wrap to a lower point with the dynamically changing page size   */
+    .lists
+    {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+
+    }
+}
+
+/*-----------Desktop-----------*/
+@media only screen and (min-width:1011px){
+    
+    /*  defines the layout of the grid that controls element placement */
+    .gridContainerReport
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas:
+            'title title title title title title'
+            'nav nav nav nav nav nav'
+            'intro intro intro intro intro intro'
+            'question question question question question question'
+            'sources sources sources sources sources sources'
+            'footer footer footer footer footer footer';
+        background-color: white;
+        opacity: 0.9;
+    }
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 1.5em;
+
+    }
+    
+    #reportIntro
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        background: #cfdde3;
+        height: 250px;
+    }
+
+    #reportIntro #reportIntroTitle
+    {
+        padding:5px;
+        position:relative;
+    }
+
+    #reportIntro #reportIntroTitle p
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 25px;;
+        color:rgb(0, 0, 0);
+    }
+
+    #reportIntro #reportIntroText
+    {
+        width:100%;
+        padding:10px;
+        position: relative;
+        bottom:40px;
+    }
+
+    #questions, #resourcesUsed, #appendices, .answers, .resourceSources
+    {
+        border: 1px solid grey;
+        border-bottom: none;
+        position: relative;
+        padding: 40px
+    }
+    
+    .resourceSources
+    {
+        
+    }
+
+    #questions h2
+    {
+        background: #cfdde3;
+    }
+
+    #resourcesUsed h2
+    {
+        background: #cfdde3;
+    }
+
+    #appendices h2 
+    {
+        background: #cfdde3;
+    }
+
+    #resourcesUsed a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 15px;;
+        color: blue;
+    }
+    .appendixImg
+    {
+        width: 100%;
+    }
+    
+    /* allows the links on the page to wrap to a lower point with the dynamically changing page size   */
+    .lists
+    {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+
+    }
+}

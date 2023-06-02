@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <title>About Where To Dive</title>
+    <meta charset="utf-8">
+    <meta name="description" content="The best places to go diving as picked by us.">
+    <meta name="author" content="The Diving Bell">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="refresh" content="600">
+    <meta name="keywords" content="Fun,Under,Water,Diving,Scuba,Under Water, Free Diving">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    </head>
+
+    
+    <body>
+        
+    <!--a container box for creating a grid element to hold the where to dive page and for content manipulation-->
+    <div class = "gridContainerWhereToDive">
+    
+        <!--        Title, logo and header-->
+        <header id = "whereTo">
+            <h1 class ="title">The Diving Bell - Where To Dive</h1>
+            <a href = "index.html"><img class = "logo" src = "assets/img/scuba.png" alt ="The diving bell logo and home button"></a>
+        </header>
+    
+        <nav>
+        <!--creates a clickable button for displaying the navigation bar on mobile devices. Controlled with CSS-->
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id= "toggle"/>
+            
+            <!-- navigation menu bar -->
+            <div id = "menu">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="scuba.html">Scuba Diving</a></li>
+                    <li><a href="commercial.html">Commercial Diving</a></li>
+                    <li><a href="free.html">Free Diving</a></li>
+                    <li><a href="whereToDive.html">Where to Dive</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ol>
+            </div>
+        </nav>
+
+        <!--Webpage introductory statement and headding-->
+        <div id = "whereToIntro">
+            <div id = "whereToIntroTitle">
+                <p>5 Must Dive Locations</p>
+            </div>
+            <div id = "whereToIntroText">
+                <p>The world is a vast place with many amazing dive sites to explore. But there are a few sites, that stand out above the rest for their ease of accessibility and diversity of life. So if you are into diving, these dive sites should be on your bucket list!</p>
+            </div>
+        </div>
+        
+        <!-- Paragraph about environmental protection -->
+        <div id = "impact">
+            <div id = "impactTitle">
+                <h2>A Quick Note.</h2>
+            </div>
+            <div id = "impactText">
+                <p>The environment is changing faster than we would like. Weather it be from a careless industry. or our own mismanagement of our selves and the items we bring with us. So, to avoid forever damaging these delicate environments. Please when exploring, pack out what you packed in and leave the spot better then when you found it so it can be enjoyed for year to come.</p>
+            </div>
+        </div>
+        
+        <!-- Main content of the page  -->
+        <div id = "placesToDive">
+            <!-- A paragraph about the features of micronesia -->
+            <div class = "diveSite">
+                <h2>1. Micronesia</h2>
+                <p>Micronesia is group of around 2100 islands in the western Pacific Ocean, near Indonesia and the Philippines. The area boasts WW2 and WW1 wrecks that can be dove, as well as coral gardens and over 1300 different species of fish. All of this makes the area loaded with different dive experiences and so requires multiple visits to take it all in. The common list of top two dive spots are.</p>
+                
+                <div>
+                    <h3>Blue Corner, Palau</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/palau_tn.jpg" onclick="openModal('myModal','mySlides','caption');currentSlide(1)" class="hover-shadow" alt = "Selectable Thumbnail image for blue corner photos">
+                            <p><cite>Diving-Destination-Palau</cite> by konawindscuba</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/palauFish_tn.jpg" onclick="openModal('myModal','mySlides','caption');currentSlide(2)" class="hover-shadow" alt = "Selectable Thumbnail image for blue corner photos">
+                            <p><cite>Fish swimming in a circle</cite> by onebigphoto</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/palau.jpg" style="width:100%" alt = "A photograph of the islands of  Palau the Blue Courner side">
+                            </div>
+
+                            <div class="mySlides">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/palauFish.jpg" style="width:100%" alt = "A school of fish swimming in a circle around a scuba diver, in the waters of Palau">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption1"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/palau_tn.jpg" onclick="currentSlide(1,'mySlides')" alt="selectable thumbnail, Blue Corner, Palau">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/palauFish_tn.jpg" onclick="currentSlide(2,'mySlides')" alt="selectable thumbnail, Palau Circle of Fish">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3>Ulong Channel, Palau</h3>
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/ulongChannelMap_tn.jpg" onclick="openModal('myModal2','mySlides2','caption2');currentSlide(1)" class="hover-shadow" alt ="selectable thumbnail image for Ulong Channel">
+                            <p><cite>UlongChannel Map</cite> by splash-palau.com</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/ulongChannelCoral_tn.jpg" onclick="openModal('myModal2','mySlides2','caption2');currentSlide(2)" class="hover-shadow" alt ="selectable thumbnail image for Ulong Channel">
+                            <p><cite>Ulong Channel Coral Cabbage</cite> by Arhnue</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal2" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides2">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/ulongChannelMap.jpg" style="width:100%" alt = "A map of the scuba diving sites in and around the ulong channel">
+                            </div>
+
+                            <div class="mySlides2">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/ulongChannelCoral.jpg" style="width:100%" alt = "a photograph of cabbage coral and a scuba diver taking a photo in the ulong channel, palau">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption2"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/ulongChannelMap_tn.jpg" onclick="currentSlide(1)" alt="A selectable thumbnail image of a dive map of ulong channel">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/ulongChannelCoral_tn.jpg" onclick="currentSlide(2)" alt="a selectable thumbnail image of cabbage coral in ulong channel">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- a paragraph about the features of egypt -->
+            <div class = "diveSite">
+                <h2>2. Egypt</h2>
+                <p>Egypt is an amazing place to travel given its awe-inspiring history and historical monuments. But something maybe less well known, is that it is also one of the best places to go diving in the world. The Red Sea is host to clear warm water, ranging in temperatures from 22 ºC - 30 ºC depending on the time of year. Which makes extended periods of swimming typically very comfortable, and the abundance of marine life greater than other locations in the world.</p>
+                <p>Two dives to not miss out on if you go are.</p>
+                <div>
+                    <h3>El Bells to the Blue Hole, Red Sea</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/blueHole_tn.jpg" onclick="openModal('myModal3','mySlides3','caption3');currentSlide(1)" class="hover-shadow" alt = "A clickable thumbnail image of the blue hole dive site in egypt">
+                            <p><cite>The Blue Hole Egypt</cite> by tribloo.com</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/Blue-Hole-Egypt-Snorkeling_tn.jpg" onclick="openModal('myModal3','mySlides3','caption3');currentSlide(2)" class="hover-shadow" alt = "A clickable thumbnail image of coral and fish, from the blue hole dive sit in egypt">
+                            <p><cite>Snorkeling in the Blue Hole Egypt</cite> by Anett Szaszi</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal3" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides3">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/blueHole.jpg" style="width:100%" alt = "an image of the blue hole dive site in egypt showing what it looks like">
+                            </div>
+
+                            <div class="mySlides3">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/Blue-Hole-Egypt-Snorkeling.jpg" style="width:100%" alt = "flaura and fauna image taken by a diver diving at the blue hole in egypt">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption3"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/blueHole_tn.jpg" onclick="currentSlide(1)" alt="Blue Hole dive site in the Red Sea Egypt">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/Blue-Hole-Egypt-Snorkeling_tn.jpg" onclick="currentSlide(2)" alt="coral and fish native to the blue hole Egypt">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h3>Wreck of the Thistle Gorm, Red Sea</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/thistleGorm_tn.jpg" onclick="openModal('myModal4','mySlides4','caption4');currentSlide(1)" class="hover-shadow" alt = "A clickable thumbnail image of the wreck of the thistile gorm in the read sea egypt">
+                            <p><cite>Wreck of the Thistle Gorm</cite> by Ivo Vaessen/p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/thistleGormBridge_tn.jpg" onclick="openModal('myModal4','mySlides4','caption4');currentSlide(2)" class="hover-shadow" alt = "a clickable thumbnail image taken from inside the wreck of the thistile gorm.">
+                            <p><cite>Bridge of the Thistle Gorm</cite> by pxhere</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal4" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides4">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/thistleGorm.jpg" style="width:100%" alt = "A very beautiful image of the dive site in the red sea egypt, The wreck of the thistle gorm!">
+                            </div>
+
+                            <div class="mySlides4">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/thistleGormBridge.jpg" style="width:100%" alt = "a photograph taken from the bridge of the thistle grom of fish swimming in and out of the broken windows">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption4"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/thistleGorm_tn.jpg" onclick="currentSlide(1)" alt="wreck of the thistle gorm">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/thistleGormBridge_tn.jpg" onclick="currentSlide(2)" alt="bridge of the wreck of the thistle grom">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- A paragraph about the features of diving in indonesia-->
+            <div class = "diveSite">
+                <h2>Indonesia</h2>
+                <p>Indonesia waters are fill with approximately 25% of the worlds fish species and 72% of the coral species. This makes it a top diving spot for beginners and professional alike. To make matters even better the climate is tropical and the water temperature is fairly stable around 26 ºC making extended periods of swimming very comfortable.</p>
+                <div>
+                    <h3>Ambon Bay, Maluku</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/mapAmbon_tn.jpg" onclick="openModal('myModal5','mySlides5','caption5');currentSlide(1)" class="hover-shadow" alt = "a clickable thumbnail of a map of the dive sites in ambon">
+                            <p><cite>Map of dive sites across Ambon</cite> by bluewaterdivetravel.com</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/Ambon_tn.jpg" onclick="openModal('myModal5','mySlides5','caption5');currentSlide(2)" class="hover-shadow" alt = "a clickable thumbnail of flaura and fauna that can be seen in ambon">
+                            <p><cite>Fish and Coral in Ambon Bay</cite> by splashdive.com</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal5" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides5">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/mapAmbon.jpg" style="width:100%" alt = "A map of the dive sites in the ambon area of indonesia">
+                            </div>
+
+                            <div class="mySlides5">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/Ambon.jpg" style="width:100%" alt ="spectacular image of flaura and fauna that can be seen in the waters around ambon">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption5"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/mapAmbon_tn.jpg" onclick="currentSlide(1)" alt="Map of dive sites accross Ambon">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/Ambon_tn.jpg" onclick="currentSlide(2)" alt="coral and fish in Ambon Bay">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h3>Alor, East Nusa Tenggara</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/Nusa_Tenggara_tn.jpg" onclick="openModal('myModal6','mySlides6','caption6');currentSlide(1)" class="hover-shadow" alt = "A clickable thumbnail image of the waters and sky around east Nusa">
+                            <p><cite>Image of the sea and sky taken from Pura Isalnd, East Nusa Tenggara, Indonesia</cite> by Sims8899</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/Nusa_Tenggara_reef_tn.jpg" onclick="openModal('myModal6','mySlides6','caption6');currentSlide(2)" class="hover-shadow" alt = "a clickable thumbnail image of coral and fish taken wile scuba diving around east Nusa.">
+                            <p><cite>Coral and Fish off of East Nusa Tenggara, Indonesia</cite> by emperorindonesia.com</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal6" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides6">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/Nusa_Tenggara.jpg" style="width:100%" alt = "A photograph taken for the shores of east Nusa showing the waters and sky around these islands.">
+                            </div>
+
+                            <div class="mySlides6">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/Nusa_Tenggara_reef.jpg" style="width:100%" alt = "flaura and fauna of the coral reefs in east Nusa.">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption6"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/Nusa_Tenggara_tn.jpg" onclick="currentSlide(1)" alt="Picture of the sea and sky from Pura Island, East Nusa Tenggara">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/Nusa_Tenggara_reef_tn.jpg" onclick="currentSlide(2)" alt="Coral and fish picture taken wile diving off East Nusa Tenggara">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class = "diveSite">
+                
+                <!-- a paragraph discribing the features of diving in Hawaii-->
+                <h2>Hawaii</h2>
+                <p>The waters around the Hawaiian Islands are often counted among the  very best in the world for diving. There are frequent sightings of large animals and turtles, and a number of huge wrecks for exploring. To make it even better the waters are crystal-clear making for some of the best diving anywhere.</p>
+                <div>
+                    <h3>Blackwater diving, Kailua-Kona</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/blackwater-diving_tn.jpg" onclick="openModal('myModal7','mySlides7','caption7');currentSlide(1)" class="hover-shadow" alt = "A clickable thumbnail image showing what a black water dive in Hawaii is like">
+                            <p><cite>Divers Suspended from a Boat on a Black Water Dive</cite> by Jacks Diving Locker</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/blackwater-diving2_tn.jpg" onclick="openModal('myModal7','mySlides7','caption7');currentSlide(2)" class="hover-shadow" alt ="a clickable thumbnail image of a strange rainbow creature from the deep ocean">
+                            <p><cite>Mysterious Rainbow Deep Sea Creature photographed on a Black Water Dive</cite> by Doug Perrine</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal7" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides7">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/blackwater-diving.jpg" style="width:100%" alt = "A image showing that a black water dive takes place at night with the divers attached to the back of a boat and creatures from the deep come up.">
+                            </div>
+
+                            <div class="mySlides7">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/blackwater-diving2.jpg" style="width:100%" alt = "a photograph taken of a strange tranlucent rainbow creature from the deep ocean.">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption7"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/blackwater-diving_tn.jpg" onclick="currentSlide(1)" alt="Night Divng off of a line attached to a boat in the waters off the coast of Kona Island">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/blackwater-diving2_tn.jpg" onclick="currentSlide(2)" alt="Mysterious Rainbow coloured deep sea creature seen on a black water dive.">
+                            </div>
+                        </div>
+                    </div>
+                    <p>For more info on what you might experience on a black water dive <a href ="https://youtu.be/HFisNiuJ60I">watch this video here</a></p>
+                </div>
+                <div>
+                    <h3>The Cathedrals, Lanai</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/CathedralLani_tn.jpg" onclick="openModal('myModal8','mySlides8','caption8');currentSlide(1)" class="hover-shadow" alt ="a clickable thumbnail image showing a dive swimming through a lave toube cave called the cathedral">
+                            <p><cite>Diving The Cathedral, Lanai</cite> by activitymaui.com</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/CathedralLani2_tn.jpg" onclick="openModal('myModal8','mySlides8','caption8');currentSlide(2)" class="hover-shadow" alt = "a clickable thumbnail image of a section of the cathedral called the alter.">
+                            <p><cite>Diving The Alter in The Cathedral, Lanai</cite> by ConquerorPlumpy</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal8" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides8">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/CathedralLani.jpg" style="width:100%" alt ="A diver swimming through a lave toube cave called the cathedral in the watters around lanai">
+                            </div>
+
+                            <div class="mySlides8">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/CathedralLani2.jpg" style="width:100%" alt = "the silouet of fish swimming above a nature stone formation in the lava toube cave called the cathedral. In the waters off Lanai island. ">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption8"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/CathedralLani_tn.jpg" onclick="currentSlide(1)" alt="The Cathedral, Lanai">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/CathedralLani2_tn.jpg" onclick="currentSlide(2)" alt="The Cathedral, Lanai - The alter">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- a paragraph describing the features of diving in chili-->
+            <div class = "diveSite">
+                <h2>Chile</h2>
+                <p>Chile has over 4000 km of coast line on the South Pacific Ocean. This leaves a vast area for available dive sites, which includes everything from sunken wrecks to sunken archeological sites. This means there is a little something for everyone see. The coastline being as vast as it is, also means that you may not see any other divers other then ones you are with, which can be very nice.</p>
+                <div>
+                    <h3>The Trail of the Maoi, Easter Island</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/easterIsland_tn.jpg" onclick="openModal('myModal9','mySlides9','caption9');currentSlide(1)" class="hover-shadow" alt ="a clickable thumbnail image of easter island moai statues">
+                            <p><cite>Easter Island Moai Statues</cite> by Annca</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/easterIlandMoai_tn.jpg" onclick="openModal('myModal9','mySlides9','caption9');currentSlide(2)" class="hover-shadow" alt = "a clickable thumbnail image of a sunken moai statue on the bottom of the ocean">
+                            <p><cite>The Moai Site, Easter Island</cite> by Halef</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal9" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides9">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/easterIsland.jpg" style="width:100%" alt = "Moai statues of easter island, part of the trail of moai">
+                            </div>
+
+                            <div class="mySlides9">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/easterIlandMoai.jpg" style="width:100%" alt = "a sunken moai statue that can be dove on in chili.">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption9"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/easterIsland_tn.jpg" onclick="currentSlide(1)" alt="Easter Island Moai Statues, Easter Island">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/easterIlandMoai_tn.jpg" onclick="currentSlide(2)" alt="Scuba Diving The Moai Site, Easter Island">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h3>Juan Fernandez Archipelago</h3>
+                    
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <img  src="assets/img/whereTo/Robinson_tn.jpg" onclick="openModal('myModal10','mySlides10','caption10');currentSlide(1)" class="hover-shadow" alt = "a clickable thumbnail image of the town of San Juan Bautista in chili">
+                            <p><cite>Town of San Juan Bautista, on the north coast at Cumberland Bay</cite> by Serpentus</p>
+                        </div>
+                        <div class="column">
+                            <img  src="assets/img/whereTo/robinson_crusoe_island_diving_tn.jpg" onclick="openModal('myModal10','mySlides10','caption10');currentSlide(2)" class="hover-shadow" alt =" a clickable thumbnail image of two sea lions playing in the water. taken wile scuba diving.">
+                            <p><cite>Diving with Sea Lions off of Robinson Crusoe Island, Chile</cite> by Cascada Expedicione</p>
+                        </div>
+                    </div>
+
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal10" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+
+                            <div class="mySlides10">
+                            <div class="numbertext">1 / 2</div>
+                                <img src="assets/img/whereTo/Robinson.jpg" style="width:100%" alt = "image of the town of San Juan Bautista in chili also known a robinson crusoe island.">
+                            </div>
+
+                            <div class="mySlides10">
+                            <div class="numbertext">2 / 2</div>
+                                <img src="assets/img/whereTo/robinson_crusoe_island_diving.jpg" style="width:100%" alt = "two sea lions playing in the water, photograph taken while scuba diveing.">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Caption text -->
+                            <div class="caption-container">
+                                <p id="caption10"></p>
+                            </div>
+
+                            <!-- Thumbnail image controls -->
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/Robinson_tn.jpg" onclick="currentSlide(1)" alt="Robinson Crusoe Island, Chile">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo" src="assets/img/whereTo/robinson_crusoe_island_diving_tn.jpg" onclick="currentSlide(2)" alt="Diving with Sea Lions off Robinson Crusoe Island, Chile">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- a paragraph describing som other dive sites that didnt make it to the top 5 but were worth mentioning-->
+        <div id = "honorableMentions">
+                <h2>Honorable Mentions</h2>
+                <p>These other dive sites while they didn’t make it to the top 5, don't let that deter you from investigating them as well. They are still among the most awe-inspiring places you will ever get to dive or visit.</p>
+                <div>
+                    <ul>
+                        <li>Great Barrier Reef, Australia</li>
+                        <li>Sipidan, Milasia</li>
+                        <li>Watamula, Curacao</li>
+                        <li>The Caves, Sultanate of Oman</li>
+                    </ul>
+                </div>
+            </div>
+        
+        <!-- footer links -->
+        <footer>
+        <div id="fpLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="scuba.html">Scuba Diving</a></li>
+                <li><a href="commercial.html">Commercial Diving</a></li>
+                <li><a href="free.html">Free Diving</a></li>
+                <li><a href="whereToDive.html">Where To Dive</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </div>
+        </footer>
+    
+    </div>
+        
+    <!-- the script call for the functions governing the light box image display-->
+    <script src ="assets/scripts/lightBoxScript.js"></script>
+    </body>
+
+</html>
